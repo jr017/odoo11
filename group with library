@@ -1,0 +1,5 @@
+a = ["new","new1","new2","n","n2","n3"]
+print(a)
+new_group={'new':[x for x in a if 'new' in x],'n':[x for x in a if not 'new' in x]}
+print(new_group)
+print(new_group['n'])
